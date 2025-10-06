@@ -14,8 +14,10 @@ public class FinallyBlock {
         } catch (ArithmeticException e) {
             System.out.println("Cannot divide by zero");
         } finally {
-            System.out.println("Finally block executed (Case 1)\n");
+            System.out.println("Finally block executed (Case 1)");
         }
+
+        System.out.println("-------------------------------------");
 
         // Case 2: No exception
         try {
@@ -27,7 +29,7 @@ public class FinallyBlock {
         } catch (ArithmeticException e) {
             System.out.println("Cannot divide by zero");
         } finally {
-            System.out.println("Finally block executed (Case 2)\n");
+            System.out.println("Finally block executed (Case 2)");
         }
 
         System.out.println("End of program");

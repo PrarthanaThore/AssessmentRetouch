@@ -16,6 +16,7 @@ public class SizeVsIsEmpty {
         al.add("Banana");
         al.add("Pomegranate");
 
+
         //After Adding Elements
         System.out.println("Size After Adding Elements: "+al.size());
         System.out.println("Is the list empty after addition: "+al.isEmpty());

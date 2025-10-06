@@ -19,8 +19,8 @@ public class NestedTryBlock {
             }
 
 
+            // Inner try block 2: Array Index Out of Bounds
             try {
-                // Inner try block 2: Array Index Out of Bounds
                 int[] arr = {1, 2, 3};
                 System.out.println(arr[5]); // ArrayIndexOutOfBoundsException
 
@@ -28,6 +28,7 @@ public class NestedTryBlock {
                 System.out.println("Caught in inner catch: Invalid array index");
             }
 
+            //Outer Catch
         } catch (Exception e) {
             // This will handle any exception not caught in inner try blocks
             System.out.println("Caught in outer catch: " + e);
